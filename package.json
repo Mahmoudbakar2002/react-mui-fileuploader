@@ -12,7 +12,8 @@
     ".": {
       "import": "./dist/index.esm.js",
       "require": "./dist/index.umd.js"
-    }
+    },
+    "./dist/index.d.ts": "./dist/types/index.d.ts"
   },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs"
